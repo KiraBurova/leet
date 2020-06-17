@@ -8,7 +8,7 @@
  Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
  */
 
-const removeDuplicates = function (nums) {
+const removeDuplicates = (nums) => {
   let indexOfUniqueEl = 1;
 
   for (let i = 0; i < nums.length; i++) {
